@@ -1,5 +1,5 @@
 build:
-  image: gliderlabs/alpine
+  image: blang/golang-alpine
   commands:
     - go get
     - go build
