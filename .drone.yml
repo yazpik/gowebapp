@@ -1,5 +1,5 @@
 build:
-  image: blang/golang-alpine
+  image: golang:onbuild
   commands:
     - go get
     - go build
