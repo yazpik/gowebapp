@@ -1,5 +1,5 @@
 build:
-  image: quay.io/yazpik/gowebapp
+  image: golang:onbuild
   commands:
     - go get
     - go build
