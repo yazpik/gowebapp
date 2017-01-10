@@ -4,3 +4,12 @@ build:
     - go get
     - go build
     - go test -v
+ 
+ notify:
+  slack:
+    webhook_url: 'https://hooks.slack.com/services/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'
+    channel: '#general'
+    username: 'FlyingPigs'
+    on_started: false
+    on_success: true
+    on_failure: true
